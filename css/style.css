@@ -483,6 +483,7 @@ background: linear-gradient(
 @media (max-width: 1000px) {
 
     .main-header {
+      background: url('../img/Murral.jpg') no-repeat top;
         background-size: 1000px 600px; /* Force the image to its minimum width */
     }
 
