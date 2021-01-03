@@ -466,7 +466,7 @@ background: linear-gradient(
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  position: relative;
+  position: static;
   margin-top: -50px;
 
 
