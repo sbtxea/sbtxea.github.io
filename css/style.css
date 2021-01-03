@@ -485,6 +485,9 @@ background: linear-gradient(
     .main-header {
       background: url('../img/Murral.jpg') no-repeat top;
         background-size: 1000px 600px; /* Force the image to its minimum width */
+        -webkit-background-size: 1000px 600px;
+        -moz-background-size: 1000px 600px;
+        -o-background-size: 1000px 600px;
     }
 
 }
