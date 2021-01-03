@@ -16,6 +16,9 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+}
 
 /* Main Styles --------------------- */
 
@@ -465,10 +468,13 @@ background: linear-gradient(
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 105%;
+  width: 100%;
   position: static;
   margin-top: -50px;
-  margin-left: -15px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+
+
 
 
 
@@ -650,169 +656,6 @@ h4 {
 /* Media Queries */
 
 
-
-@media (max-width: 1044px) {
-  .TenderLoving::Before {
-    background-image: url('../img/TenderLovingSmallLogo.jpg');
-    background-repeat: no-repeat;
-    background-size: 150px, 50%;
-    display: inline-block;
-    float: left;
-    background-position: 30%, 0;
-    height: 125px;
-    width: 50%;
-    content: "";
-    position: relative;
-  }
-  .WorldFoods::Before {
-    background-image: url('../img/WorldFoods.png');
-    background-repeat: no-repeat;
-    background-size: 75%, 50%;
-    display: inline-block;
-    float: left;
-    background-position: 30%, 0;
-    height: 125px;
-    width: 50%;
-    content: "";
-    position: relative;
-    font-weight: normal;
-  }
-  .primary-content {
-    width:90%;
-  }
-
-  .satisfaction::before {
-    height: 50px;
-    top: 10px;
-  }
-  
-
-  .block-a,
-  .block-b,
-  .block-c {
-    width: 90%;
-    height: auto;
-  }  
-
-.HiveB {
-  top: 200px;
-}
-
-
-
-
-.center {
-  width: 90%;
-}
-
-
-}
-
-
-@media (max-width: 900px) {
-  .div-break-half-a {
-    display: block;
-    width: 100%;
-    padding: 0px;
-    margin-bottom: 50px;
-  }
-  
-  .div-break-half-b {
-    display: block;
-    width: 100%;
-    background-size: fill;
-    padding: 0px;
-    background-attachment: fixed;
-    height: 30vh;
-    margin-bottom: 50px;
-  }
-  .div-break-b {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .break-a {
-    height: 0vh;
-  }
-  
-  .break-b {
-    height: 0vh;
-  }
-  h1 {  
-  font-size: 2rem; /* 90px/16px  */
-  border-left: 2px solid #fff;
-  border-bottom: none;
-  }
-.div-break-c{
-  background-color: darkgray;
-  background-size: 200%, 200%;
-}
-
-.space {
-  height: 80px;
-}
-}
-
-.descb {
-  margin-top: 30px;
-}
-@media (max-width: 767px) {
-
-.sidingTypesB{
-  width: 100%;
-  height: 400px;
-}
-
-.sidingTypesB img {
-  max-height: 100%;
-  max-width: 100%;
-  display: block;
-  margin: auto;
-
-}
-
-.sidingTypesA {
-  width: 100%;
-  margin-top: 10px;
-  height: 300px
-}
-
-.main-header {
-  background-attachment: scroll !important;
-  background-size: cover;
-  padding: 10px;
-  margin-bottom: 0px;
-}
-.contact-div-a {
-  display: block;
-  width: 100%;
-  height: 300px;
-  float: none;
-}
-.contact-div-b {
-  display: block;
-  width: 100%;
-  background-position: center
-  margin: 0% 10%;
-  float: none;
-}
-
-.div-break-a {
-    text-align: center;
-    padding: 10px;
-    height: 725px !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-}
-.space {
-  height: 100px;
-}
-*{
-    background-attachment: initial;
-  }
-}
 @media (max-width: 400px) {
   .space {
   height: 80px;
@@ -912,9 +755,7 @@ footer{
   text-align: justify;
 }
 
-.job-website{
-  margin: -10px 0 0 0;
-}
+
 
 .group:hover h3{
   text-decoration: underline;
