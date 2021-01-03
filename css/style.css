@@ -468,6 +468,7 @@ background: linear-gradient(
   width: 105%;
   position: static;
   margin-top: -50px;
+  margin-left: -15px;
 
 
 
@@ -821,7 +822,7 @@ h4 {
 }
 }
 body {
-  width: 100%;
+  max-width: 100%;
 }
 
 body{
