@@ -458,7 +458,7 @@ background: linear-gradient(
 
 .main-header {
   height: 75vh;
-  background: url('../img/Murral.JPG') no-repeat bottom;
+  background: url('../img/Murral.jpg') no-repeat bottom;
   min-height: 50%;
   background-attachment: fixed;
   -webkit-background-size: cover;
